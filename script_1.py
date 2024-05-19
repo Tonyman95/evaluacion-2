@@ -12,7 +12,7 @@ while True:
         numeros.append(numero_3)
         break
     except ValueError:
-        print("*******Por Favor ingrese numeros*********")
+        print("*******Por Favor ingrese numeros enteros*********")
 
 print("El numero mayor es: ", max(numeros))
 
